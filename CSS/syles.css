@@ -1,43 +1,70 @@
-h1 ,h2,h3,h5,h6,style{
-    color:blue;
-    font font-size:18px;
-    font-family: 'Beau Rivage', cursive;
+h1,h2,h3,h4{
+    color: green;
+    font-size: 18pt;
+    font-family: 'Caveat', cursive;
 }
 p{
-    font-size: 14px;
-    font-family: sans-serif;
-    line-height: 50px;
-    text-indent: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 14pt; 
 }
 .strophe{
     font-size: 14px;
-   
 }
-content{
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-top: 3px;
+#content{
+   
+    position: relative;
 
 }
-#content,
-.strophe {
-   
-    
-color: grey;
-
+.firstparagraph{
+    position: absolute;
+    right: 20px;
+}
+#content,.strophe{
+    color: gray;
 }
 body>p{
-font-size: 20px;
+    font-size: 20px;
 }
-
-#content,.strophe:hover{
-color: brown;
-
+#content .strophe:hover{
+    color: red;
 }
 .strophe:first-child{
-color:blue;
+    color:blue;
+}
+body{
+    padding: 15px;
+    background-color:rgb(225, 228, 62);
+    border: 3px solid black;
+    color: blue;
+    margin: 20px;
+
+}
+p{
+    color: black;
+}
+.strophe{
+    color:gray
+}
+/*.strophe{
+    color: gray !important;    Das ist für alle paragraf mit classe strophe in grau
+                             machen. !important kommt immer als erste
+}*/
+#headline{
+    position: relative;
+    top:10px;
+    left:5px;
+    margin:0;
 }
 
-body>p{
-font-size: 25px;
+.date{
+    position: relative;
+    left:50px;
+
 }
+.author{
+    position: static; /*bei static class kann css nichts verändern*/
+    left:50;
+}
+
+
