@@ -1,0 +1,30 @@
+
+
+main{
+    display: flex;  /*ovako pravik kontejner za sve flexBox-ove*/
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  /*zatim stilizujem artikle sve, razmak i okvir*/
+article{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+  border-radius: 5px;
+  height: auto;
+  width: 45%;
+  background-color: rgb(79, 213, 79);
+
+  
+}
+article > h3{  /*Ovim znako > pristupam child-u (elementu u elementu), razmak je obavezan*/ 
+    font-size: medium;
+}
+#facts{
+    width: 90%;
+}
+
+
+  
